@@ -1,0 +1,12 @@
+*.DS_Store
+test.yml
+roles/private
+.ansible
+.vscode
+ansible-navigator.log
+ansible.log
+.terraform/
+.opentofu/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl

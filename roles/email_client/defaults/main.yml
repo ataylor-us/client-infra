@@ -1,0 +1,9 @@
+---
+packages:
+  - neomutt
+  - urlscan
+  - msmtp
+brew_formulae:
+  - neomutt
+  - urlscan
+  - msmtp
