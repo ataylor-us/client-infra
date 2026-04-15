@@ -20,6 +20,7 @@
           - fzf
           - zsh-autosuggestions
           - poppler
+          - yt-dlp
     - name: Install casks
       ansible.builtin.import_tasks: common/tasks/install_brew_casks.yml
       vars:
@@ -37,6 +38,7 @@
           - steam
           - logi-options+
           - onlyoffice
+          - ollama
     - name: Ensure ~/.claude directory exists
       ansible.builtin.file:
         path: "~/.claude"
