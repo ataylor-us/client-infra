@@ -5,3 +5,4 @@ packages:
 brew_formulae:
   - opentofu
   - cdrtools
+  - wimlib

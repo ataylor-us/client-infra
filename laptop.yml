@@ -39,6 +39,8 @@
           - logi-options+
           - onlyoffice
           - ollama
+          - iterm2
+          - font-noto-nerd-font
     - name: Ensure ~/.claude directory exists
       ansible.builtin.file:
         path: "~/.claude"
