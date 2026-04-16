@@ -16,7 +16,7 @@
           - ripgrep
           - rsync
           - shellcheck
-          - zsh-completion
+          - zsh-completions
           - fzf
           - zsh-autosuggestions
           - poppler
@@ -38,7 +38,7 @@
           - steam
           - logi-options+
           - onlyoffice
-          - ollama
+          - ollama-app
           - iterm2
           - font-noto-nerd-font
     - name: Ensure ~/.claude directory exists
