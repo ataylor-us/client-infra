@@ -2,7 +2,6 @@
 packages:
   - podman
   - podman-docker
-  - cockpit-podman
 brew_tap:
   - slp/krunkit
 brew_formulae:
