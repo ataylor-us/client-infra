@@ -41,6 +41,7 @@
           - ollama-app
           - iterm2
           - font-noto-nerd-font
+          - calibre
     - name: Ensure ~/.claude directory exists
       ansible.builtin.file:
         path: "~/.claude"
