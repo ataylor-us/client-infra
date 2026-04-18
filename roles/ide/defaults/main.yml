@@ -1,5 +1,3 @@
 ---
-packages:
-  - code
 brew_casks:
   - visual-studio-code

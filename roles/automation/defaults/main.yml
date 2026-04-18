@@ -1,7 +1,4 @@
 ---
-packages:
-  - ansible
-  - ansible-lint
 brew_formulae:
   - ansible
   - ansible-lint

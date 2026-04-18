@@ -1,7 +1,4 @@
 ---
-packages:
-  - podman
-  - podman-docker
 brew_tap:
   - slp/krunkit
 brew_formulae:

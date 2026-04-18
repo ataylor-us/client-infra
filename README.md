@@ -1,6 +1,6 @@
-# Base client playbook
+# Laptop playbook
 
-Base playbook to set up a my client boxes (currently just my laptop.)
+Base playbook & roles to set my MacBook Pro M5.
 
 ```
 ansible-playbook laptop.yml

@@ -109,10 +109,8 @@ set imap_user = "{{ personal_email }}"
 set imap_pass = "`{{ personal_mail_pass_command }}`"
 set ssl_starttls = yes
 set ssl_force_tls = yes
-{% if ansible_facts['os_family'] == 'Darwin' %}
 startup-hook 'stty discard undef'
 source ~/.config/mutt/theme.neomuttrc
-{% endif %}
 mailboxes "=INBOX" "=Drafts" "=Sent" "=Archive" "=Spam" "=Junk" "=Trash"
 macro index,pager D ";<save-message>=Trash<enter>" "move mail to trash"
 macro index,pager A ";<save-message>=Archive<enter>" "archive mail"

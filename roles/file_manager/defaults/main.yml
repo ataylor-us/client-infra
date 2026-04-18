@@ -1,5 +1,3 @@
 ---
-packages:
-  - git
 brew_formulae:
   - yazi

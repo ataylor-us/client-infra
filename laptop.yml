@@ -1,9 +1,6 @@
 ---
 - name: Set up laptop
   hosts: localhost
-  vars_files:
-    - group_vars/clients/vars.yml
-    - group_vars/clients/vault.yml
   vars:
     group: staff
     neomutt_theme: "https://raw.githubusercontent.com/marcothms/mutt-nord/refs/heads/master/nord.theme"
