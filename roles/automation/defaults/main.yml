@@ -1,4 +1,11 @@
 ---
 brew_formulae:
-  - ansible
   - ansible-lint
+pipx_packages:
+  - name: ansible-core
+    inject:
+      # For working with Windows:
+      # https://github.com/faezehghiasi/ansible-windows-playbooks
+      - pywinrm
+      - pyopenssl
+      - requests
