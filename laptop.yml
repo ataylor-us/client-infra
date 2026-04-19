@@ -65,6 +65,7 @@
           - 1584519802 # Vimlike
           - 6745342698 # uBlock Origin Lite
           - 1295203466 # Windows App
+          - 1463298887 # Userscripts
     - name: Uninstall apps
       ansible.builtin.import_tasks: common/tasks/uninstall_mas_apps.yml
       vars:
