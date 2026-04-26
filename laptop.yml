@@ -113,11 +113,6 @@
       when: tlcorner.stdout != "2"
       notify: Kill (and restart) Finder
       changed_when: true
-    - name: Ensure omz custom functions directory exists
-      ansible.builtin.file:
-        path: "~/.oh-my-zsh/custom/functions"
-        state: directory
-        mode: "0755"
   roles:
     - version_control
     - terminal
