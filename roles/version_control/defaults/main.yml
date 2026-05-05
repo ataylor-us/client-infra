@@ -1,6 +1,7 @@
 ---
 brew_formulae:
   - git
+  - gh
   - gitlint
   - lazygit
 full_name: "{{ username }}"
