@@ -3,6 +3,7 @@ brew_tap:
   - slp/krunkit
 brew_formulae:
   - podman
+  - podman-compose
   - krunkit
 brew_casks:
   - podman-desktop
