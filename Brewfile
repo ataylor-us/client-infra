@@ -4,6 +4,7 @@ brew "block-goose-cli"
 brew "cdrtools"
 brew "fd"
 brew "findutils"
+brew "forgejo-cli"
 brew "fzf"
 brew "git-filter-repo"
 brew "gitleaks"
@@ -57,8 +58,15 @@ cask "utm"
 
 # Cursor Extensions
 vscode "anthropic.claude-code"
+vscode "anysphere.cursorpyright"
 vscode "anysphere.remote-ssh"
+vscode "keesschollaart.vscode-home-assistant"
+vscode "ms-python.debugpy"
+vscode "ms-python.python"
+vscode "ms-python.vscode-python-envs"
+vscode "redhat.ansible"
 vscode "redhat.vscode-yaml"
+vscode "samuelcolvin.jinjahtml"
 vscode "vscodevim.vim"
 
 # Mac App Store
