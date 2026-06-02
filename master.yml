@@ -63,7 +63,6 @@
     - version_control
     - terminal
     - pim_client
-    - file_sync_client
     - file_manager
     - feed_client
     - email_client
