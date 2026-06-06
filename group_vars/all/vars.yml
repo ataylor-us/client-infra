@@ -3,7 +3,8 @@ first_name: "Alex"
 username: alex
 group: alex
 full_name: "Alex Taylor"
-email: "ataylor@posteo.us"
+email: "alex@ataylor-us.dev"
+gpg_signing_key: "5AE6C2CEBBD58956"
 carddav_address_book: "card"
 personal_email: "{{ lookup('community.general.passwordstore', 'Repositories/client-infra/personal_email') }}"
 personal_email_hostname: "{{ lookup('community.general.passwordstore', 'Repositories/client-infra/personal_email_hostname') }}"
