@@ -70,7 +70,6 @@
     - ide
     - credentials
     - automation
-    - containers
   handlers:
     - name: Kill (and restart) the Dock
       changed_when: true
