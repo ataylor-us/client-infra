@@ -7,3 +7,12 @@
     owner: "{{ username }}"
     group: "{{ group }}"
     mode: "0644"
+- name: Alias cat to bat
+  ansible.builtin.lineinfile:
+    path: "~/.zshrc"
+    regexp: "^alias cat="
+    line: "alias cat='bat --style=plain'"
+    create: true
+    owner: "{{ username }}"
+    group: "{{ group }}"
+    mode: "0644"
