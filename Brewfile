@@ -44,8 +44,6 @@ cask "onlyoffice"
 cask "raspberry-pi-imager"
 cask "runelite"
 cask "signal"
-cask "spotify"
-cask "steam"
 cask "tailscale-app"
 cask "ungoogled-chromium"
 
