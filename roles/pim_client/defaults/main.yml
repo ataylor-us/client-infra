@@ -1,6 +1,0 @@
----
-vdirsyncer_directory: "~/.local/share/vdirsyncer"
-brew_formulae:
-  - vdirsyncer
-  - khard
-  - khal

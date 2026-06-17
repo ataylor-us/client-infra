@@ -1,6 +1,0 @@
----
-brew_formulae:
-  - neomutt
-  - urlscan
-  - msmtp
-  - lynx

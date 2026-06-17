@@ -3,7 +3,6 @@
   hosts: localhost
   vars:
     group: staff
-    neomutt_theme: "https://raw.githubusercontent.com/marcothms/mutt-nord/refs/heads/master/nord.theme"
   tasks:
     - name: Add GNU find to PATH
       ansible.builtin.lineinfile:
@@ -62,10 +61,8 @@
   roles:
     - version_control
     - terminal
-    - pim_client
     - file_manager
     - feed_client
-    - email_client
     - editor
     - ide
     - credentials
