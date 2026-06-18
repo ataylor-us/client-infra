@@ -1,7 +1,7 @@
 ---
-- name: Disable press and hold for Cursor
+- name: Disable press and hold for VSCodium
   community.general.osx_defaults:
-    domain: com.todesktop.230313mzl4w4u92
+    domain: com.vscodium
     key: ApplePressAndHoldEnabled
     type: bool
     value: false
