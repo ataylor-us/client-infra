@@ -49,9 +49,13 @@ cask "tailscale-app"
 cask "ungoogled-chromium"
 cask "vscodium"
 
-# Cursor Extensions
+# VSCodium Extensions
 vscode "anthropic.claude-code"
+vscode "detachhead.basedpyright"
 vscode "keesschollaart.vscode-home-assistant"
+vscode "ms-python.debugpy"
+vscode "ms-python.python"
+vscode "ms-python.vscode-python-envs"
 vscode "redhat.ansible"
 vscode "redhat.vscode-yaml"
 vscode "samuelcolvin.jinjahtml"
