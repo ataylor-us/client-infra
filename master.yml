@@ -62,7 +62,6 @@
     - version_control
     - terminal
     - file_manager
-    - feed_client
     - editor
     - ide
     - credentials
