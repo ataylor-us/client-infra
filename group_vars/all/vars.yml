@@ -1,11 +1,6 @@
 ---
-first_name: "Alex"
 username: alex
 group: alex
 full_name: "Alex Taylor"
 email: "alex@ataylor-us.dev"
 gpg_signing_key: "5AE6C2CEBBD58956"
-freshrss_domain: "{{ lookup('community.general.passwordstore', 'Repositories/client-infra/freshrss_domain') }}"
-freshrss_username: "{{ lookup('community.general.passwordstore', 'Repositories/client-infra/freshrss_username') }}"
-hypervisor_mac_address: "{{ lookup('community.general.passwordstore', 'Repositories/client-infra/hypervisor_mac_address') }}"
-freshrss_pass_command: "pass freshrss"
