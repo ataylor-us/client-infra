@@ -1,6 +1,7 @@
 # Formulae
 brew "bat"
 brew "cdrtools"
+brew "exiftool"
 brew "fd"
 brew "findutils"
 brew "forgejo-cli"
@@ -63,6 +64,7 @@ vscode "ms-python.vscode-python-envs"
 vscode "redhat.ansible"
 vscode "redhat.vscode-yaml"
 vscode "samuelcolvin.jinjahtml"
+vscode "streetsidesoftware.code-spell-checker"
 vscode "vscodevim.vim"
 
 # Mac App Store
