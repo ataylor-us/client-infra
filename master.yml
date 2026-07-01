@@ -4,14 +4,6 @@
   vars:
     group: staff
   tasks:
-    - name: Add GNU find to PATH
-      ansible.builtin.lineinfile:
-        path: "~/.zshrc"
-        line: 'export PATH="/opt/homebrew/opt/findutils/libexec/gnubin:$PATH"'
-        create: true
-        owner: "{{ username }}"
-        group: "{{ group }}"
-        mode: "0644"
     - name: Uninstall apps
       ansible.builtin.import_tasks: common/tasks/uninstall_mas_apps.yml
       vars:

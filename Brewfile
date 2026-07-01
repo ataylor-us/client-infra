@@ -1,3 +1,6 @@
+# Taps
+tap "railwaycat/emacsmacport"
+
 # Formulae
 brew "bat"
 brew "cdrtools"
@@ -38,6 +41,7 @@ cask "calibre"
 cask "claude-code@latest"
 cask "claudebar"
 cask "discord"
+cask "emacs-mac"
 cask "font-noto-nerd-font"
 cask "iterm2"
 cask "jagex"

@@ -16,3 +16,19 @@
     owner: "{{ username }}"
     group: "{{ group }}"
     mode: "0644"
+- name: Add GNU find to PATH
+  ansible.builtin.lineinfile:
+    path: "~/.zshrc"
+    line: 'export PATH="/opt/homebrew/opt/findutils/libexec/gnubin:$PATH"'
+    create: true
+    owner: "{{ username }}"
+    group: "{{ group }}"
+    mode: "0644"
+- name: Add Doom Emacs to PATH
+  ansible.builtin.lineinfile:
+    path: "~/.zshrc"
+    line: 'export PATH="$HOME/.config/emacs/bin:$PATH"'
+    create: true
+    owner: "{{ username }}"
+    group: "{{ group }}"
+    mode: "0644"
