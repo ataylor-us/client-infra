@@ -3,3 +3,4 @@ brew_formulae:
   - tmux
   - screen
   - direnv
+  - cmake
