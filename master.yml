@@ -55,7 +55,6 @@
     - terminal
     - file_manager
     - editor
-    - ide
     - credentials
     - automation
   handlers:
