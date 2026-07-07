@@ -1,5 +1,4 @@
 # Taps
-tap "gromgit/fuse"
 tap "railwaycat/emacsmacport"
 
 # Formulae
@@ -30,7 +29,6 @@ brew "ripgrep"
 brew "rsync"
 brew "shellcheck"
 brew "skopeo"
-brew "sshfs-mac"
 brew "trufflehog"
 brew "virt-manager"
 brew "wakeonlan"
@@ -50,7 +48,6 @@ cask "emacs-mac"
 cask "font-noto-nerd-font"
 cask "iterm2"
 cask "jagex"
-cask "macfuse"
 cask "moonlight"
 cask "obsidian"
 cask "ollama-app"
