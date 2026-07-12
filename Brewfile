@@ -71,3 +71,7 @@ mas "Parcel", id: 375589283
 mas "Pixelmator Pro", id: 1289583905
 mas "Bitwarden", id: 1352778147
 mas "Windows App", id: 1295203466
+mas "2FAS - Two Factor Authentication", id: 6443941139
+mas "Karakeep", id: 6479258022
+mas "uBlock Origin Lite", id: 6745342698
+mas "Vimari", id: 1480933944
