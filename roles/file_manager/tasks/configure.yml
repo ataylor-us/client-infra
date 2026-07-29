@@ -4,13 +4,12 @@
     group: "{{ group }}"
     mode: "0755"
     owner: "{{ username }}"
-    path: "~/.config/yazi"
+    path: "~/.config/ranger"
     state: directory
-- name: Alias ranger to yazi
-  ansible.builtin.lineinfile:
-    path: "~/.bashrc"
-    regexp: "^alias ranger="
-    line: "alias ranger=yazi"
-    mode: "0664"
-    create: true
-    state: present
+- name: Copy ranger rc.conf
+  ansible.builtin.copy:
+    src: rc.conf
+    dest: ~/.config/ranger/rc.conf
+    group: "{{ group }}"
+    mode: "0644"
+    owner: "{{ username }}"
