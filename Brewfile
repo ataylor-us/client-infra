@@ -68,6 +68,7 @@ cask "runelite"
 cask "signal"
 cask "tailscale-app"
 cask "ungoogled-chromium"
+cask "wifiman"
 
 # Mac App Store
 mas "Notability", id: 360593530
