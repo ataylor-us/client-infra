@@ -2,6 +2,7 @@
 brew_formulae:
   - ansible-lint
 pipx_packages:
+  - name: ansible-builder
   - name: ansible-core
     inject:
       # For working with Windows:
