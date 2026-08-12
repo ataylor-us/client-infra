@@ -1,7 +1,0 @@
----
-- name: Add tap using brew
-  become: false
-  community.general.homebrew_tap:
-    name: "{{ item }}"
-    state: present
-  loop: "{{ brew_tap }}"

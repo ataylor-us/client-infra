@@ -28,6 +28,13 @@
     group: "{{ group }}"
     mode: "0644"
     owner: "{{ username }}"
+- name: Create local bin directory
+  ansible.builtin.file:
+    group: "{{ group }}"
+    mode: "0755"
+    owner: "{{ username }}"
+    path: "~/.local/bin"
+    state: directory
 - name: Copy editor scripts
   become: false
   ansible.builtin.copy:
