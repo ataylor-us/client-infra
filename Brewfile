@@ -52,6 +52,7 @@ cask "betterdisplay"
 cask "caffeine"
 cask "claude-code@latest"
 cask "claudebar"
+cask "cyberduck"
 cask "discord"
 cask "emacs-mac"
 cask "font-noto-nerd-font"
@@ -68,12 +69,12 @@ cask "podman-desktop"
 cask "raspberry-pi-imager"
 cask "runelite"
 cask "signal"
+cask "syncthing-app"
 cask "tailscale-app"
 cask "ungoogled-chromium"
 cask "wifiman"
 
 # Mac App Store
-mas "Notability", id: 360593530
 mas "Parcel", id: 375589283
 mas "Pixelmator Pro", id: 1289583905
 mas "Bitwarden", id: 1352778147
